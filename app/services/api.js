@@ -13,7 +13,7 @@ const ApiClient = (baseUrl) => ({
 		}
 	}
 })
-const api = ApiClient("https://resountries.com/v3.1/");
+const api = ApiClient("https://restcountries.com/v3.1/");
 const countriesApi = {
 	getAll: () => api.get("all?fields=cca3,flags,name,capital,region,population")
 }
